@@ -9,6 +9,9 @@ describe 'thedude', ->
   beforeEach ->
     @room = helper.createRoom()
 
+  afterEach ->
+    @room.destroy()
+
   context "mentions mister lebowski", ->
     beforeEach ->
       @room.user.say 'testuser', 'mister lebowski'
