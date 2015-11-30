@@ -30,10 +30,10 @@ Then add **hubot-thedude** to your `external-scripts.json`:
 
 ## Sample Interaction
 
-```
-hubot> hubot mister lebowski
-hubot> Let me explain something to you. Um, I am not "Mr. Lebowski". You're Mr. Lebowski. I'm the Dude. So that's what you call me. You know, that or, uh, His Dudeness, or uh, Duder, or El Duderino if you're not into the whole brevity thing.
+```hubot> hubot mister lebowski```  
+```hubot> Let me explain something to you. Um, I am not "Mr.   Lebowski".```  
+```You're Mr. Lebowski. I'm the Dude. So that's what you```
+```call me. You know, that or, uh, His Dudeness, or uh, Duder,```  ```or El   Duderino if you're not into the whole brevity thing.```  
 
-hubot> hubot dude quote
-hubot> Vee vant zat money, Lebowski.
-```
+```hubot> hubot dude quote```  
+```hubot> Vee vant zat money, Lebowski.```
