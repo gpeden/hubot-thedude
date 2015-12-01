@@ -41,9 +41,6 @@
   },
   "engine": "node >= 0.4.1",
   "main": "./index.coffee",
-  "bin": {
-    "hubot": "./bin/hubot"
-  },
   "scripts": {
     "test": "./script/test",
     "bootstrap": "./script/bootstrap"
