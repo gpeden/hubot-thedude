@@ -2,7 +2,7 @@ sinon = require 'sinon'
 expect = require './expect'
 
 Helper = require('hubot-test-helper')
-helper = new Helper('../scripts/thedude.coffee')
+helper = new Helper('../src/thedude.coffee')
 
 describe 'thedude', ->
 
