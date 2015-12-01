@@ -40,7 +40,7 @@
     "lib": "./src"
   },
   "engine": "node >= 0.4.1",
-  "main": "./index",
+  "main": "./index.coffee",
   "bin": {
     "hubot": "./bin/hubot"
   },
