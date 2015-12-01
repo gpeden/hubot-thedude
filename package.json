@@ -1,6 +1,6 @@
 {
   "name": "hubot-thedude",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "author": "George Peden",
   "description": "A hubot-script that really ties the room together",
   "license": "MIT",
