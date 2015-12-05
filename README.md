@@ -8,10 +8,6 @@ This README is intended to help get you started. Definitely update and improve
 to talk about your own instance, how to use and deploy, what functionality he
 has, etc!
 
-# hubot-shipit
-
-A hubot script that provides easy access to the shipit squirrel and its kin.
-
 See [`scripts/thedude.coffee`](scripts/thedude.coffee) for full documentation.
 
 ## Installation
