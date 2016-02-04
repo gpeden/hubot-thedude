@@ -6,6 +6,8 @@
 #
 # Commands:
 #   hubot mister lebowski - respond with the dude
+#   hubot mr. lebowski - respond with the dude
+#   hubot mr lebowski - respond with the dude
 #   hubot dude quote
 #
 # Configuration:
@@ -27,7 +29,7 @@ quotes = [
 
 module.exports = (robot) ->
   # You'r Mr. Lebowski...
-  robot.hear /mister lebowski/i, (res) ->
+  robot.hear /(mister|mr|mr\.) lebowski/i, (res) ->
     res.send "Let me explain something to you. Um, I am not \"Mr. Lebowski\". You're Mr. Lebowski. I'm the Dude. So that's what you call me. You know, that or, uh, His Dudeness, or uh, Duder, or El Duderino if you're not into the whole brevity thing."
 
   # What are you saying?
